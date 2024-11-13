@@ -1,0 +1,7 @@
+version: "1"
+services:
+    web:
+        container_name: reactContainer
+        build: .
+        ports:
+            -3000:80
